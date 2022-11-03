@@ -18,7 +18,8 @@ using namespace std;
 
 List::List(){
   last = NULL;
-  assert(isEmpty()==true);//axioma1 y 3
+  assert(isEmpty()==true);//axioma 3
+  assert(size()==0);//axioma1 
 }
 
 List& List::append(int data){
@@ -40,8 +41,10 @@ List& List::append(int data){
     last = n;
     return *this;
   }
-  assert(size()>0);//axioma 2 y 4
-  assert(!isEmpty());
+  assert(size()>0);//axioma 2 y 4 size(append(L, E)) > 0
+  assert(!isEmpty());//axioma 4 empty(append(L, E)) = False
+  //assert(!(isEmpty() == true) && (size()!=1));
+  //axioma 3 size(append(new, E)) == 1
 }
 
 int List::head(){
@@ -50,7 +53,7 @@ int List::head(){
 }
 
 List& List::tail(){
-  //assert(!isEmpty());//axioma 8
+  assert(!isEmpty());//axioma 8
   if(last->next==last){
     last=NULL;
     return *this;
