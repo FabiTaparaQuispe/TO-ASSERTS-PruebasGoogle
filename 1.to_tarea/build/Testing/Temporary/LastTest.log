@@ -1,10 +1,10 @@
-Start testing: Nov 03 15:29 -05
+Start testing: Nov 03 16:36 -05
 ----------------------------------------------------------
 1/6 Testing: StackTest.Axioma6
 1/6 Test: StackTest.Axioma6
 Command: "/home/fabiola/Desktop/VI/1.TO/II/TO-ASSERTS-PruebasGoogle/1.to_tarea/build/hello_test" "--gtest_filter=StackTest.Axioma6" "--gtest_also_run_disabled_tests"
 Directory: /home/fabiola/Desktop/VI/1.TO/II/TO-ASSERTS-PruebasGoogle/1.to_tarea/build
-"StackTest.Axioma6" start time: Nov 03 15:29 -05
+"StackTest.Axioma6" start time: Nov 03 16:36 -05
 Output:
 ----------------------------------------------------------
 Running main() from /home/fabiola/Desktop/VI/1.TO/II/TO-ASSERTS-PruebasGoogle/1.to_tarea/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -20,10 +20,10 @@ Note: Google Test filter = StackTest.Axioma6
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.00 sec
+Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"StackTest.Axioma6" end time: Nov 03 15:29 -05
+"StackTest.Axioma6" end time: Nov 03 16:36 -05
 "StackTest.Axioma6" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -31,7 +31,7 @@ Test Passed.
 2/6 Test: StackTest.Axioma5
 Command: "/home/fabiola/Desktop/VI/1.TO/II/TO-ASSERTS-PruebasGoogle/1.to_tarea/build/hello_test" "--gtest_filter=StackTest.Axioma5" "--gtest_also_run_disabled_tests"
 Directory: /home/fabiola/Desktop/VI/1.TO/II/TO-ASSERTS-PruebasGoogle/1.to_tarea/build
-"StackTest.Axioma5" start time: Nov 03 15:29 -05
+"StackTest.Axioma5" start time: Nov 03 16:36 -05
 Output:
 ----------------------------------------------------------
 Running main() from /home/fabiola/Desktop/VI/1.TO/II/TO-ASSERTS-PruebasGoogle/1.to_tarea/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -50,7 +50,7 @@ Note: Google Test filter = StackTest.Axioma5
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"StackTest.Axioma5" end time: Nov 03 15:29 -05
+"StackTest.Axioma5" end time: Nov 03 16:36 -05
 "StackTest.Axioma5" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -58,7 +58,7 @@ Test Passed.
 3/6 Test: StackTest.Axioma4
 Command: "/home/fabiola/Desktop/VI/1.TO/II/TO-ASSERTS-PruebasGoogle/1.to_tarea/build/hello_test" "--gtest_filter=StackTest.Axioma4" "--gtest_also_run_disabled_tests"
 Directory: /home/fabiola/Desktop/VI/1.TO/II/TO-ASSERTS-PruebasGoogle/1.to_tarea/build
-"StackTest.Axioma4" start time: Nov 03 15:29 -05
+"StackTest.Axioma4" start time: Nov 03 16:36 -05
 Output:
 ----------------------------------------------------------
 Running main() from /home/fabiola/Desktop/VI/1.TO/II/TO-ASSERTS-PruebasGoogle/1.to_tarea/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -77,7 +77,7 @@ Note: Google Test filter = StackTest.Axioma4
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"StackTest.Axioma4" end time: Nov 03 15:29 -05
+"StackTest.Axioma4" end time: Nov 03 16:36 -05
 "StackTest.Axioma4" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -85,7 +85,7 @@ Test Passed.
 4/6 Test: StackTest.Axioma3
 Command: "/home/fabiola/Desktop/VI/1.TO/II/TO-ASSERTS-PruebasGoogle/1.to_tarea/build/hello_test" "--gtest_filter=StackTest.Axioma3" "--gtest_also_run_disabled_tests"
 Directory: /home/fabiola/Desktop/VI/1.TO/II/TO-ASSERTS-PruebasGoogle/1.to_tarea/build
-"StackTest.Axioma3" start time: Nov 03 15:29 -05
+"StackTest.Axioma3" start time: Nov 03 16:36 -05
 Output:
 ----------------------------------------------------------
 Running main() from /home/fabiola/Desktop/VI/1.TO/II/TO-ASSERTS-PruebasGoogle/1.to_tarea/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -96,10 +96,10 @@ Note: Google Test filter = StackTest.Axioma3
 [ RUN      ] StackTest.Axioma3
 hello_test: /home/fabiola/Desktop/VI/1.TO/II/TO-ASSERTS-PruebasGoogle/1.to_tarea/arrayStack.cc:63: T arrayStack<T>::top() [with T = int]: Assertion `!empty()' failed.
 <end of output>
-Test time =   0.19 sec
+Test time =   0.40 sec
 ----------------------------------------------------------
 Test Failed.
-"StackTest.Axioma3" end time: Nov 03 15:29 -05
+"StackTest.Axioma3" end time: Nov 03 16:36 -05
 "StackTest.Axioma3" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -107,7 +107,7 @@ Test Failed.
 5/6 Test: StackTest.Top
 Command: "/home/fabiola/Desktop/VI/1.TO/II/TO-ASSERTS-PruebasGoogle/1.to_tarea/build/hello_test" "--gtest_filter=StackTest.Top" "--gtest_also_run_disabled_tests"
 Directory: /home/fabiola/Desktop/VI/1.TO/II/TO-ASSERTS-PruebasGoogle/1.to_tarea/build
-"StackTest.Top" start time: Nov 03 15:29 -05
+"StackTest.Top" start time: Nov 03 16:36 -05
 Output:
 ----------------------------------------------------------
 Running main() from /home/fabiola/Desktop/VI/1.TO/II/TO-ASSERTS-PruebasGoogle/1.to_tarea/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -144,7 +144,7 @@ Expected: true
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Failed.
-"StackTest.Top" end time: Nov 03 15:29 -05
+"StackTest.Top" end time: Nov 03 16:36 -05
 "StackTest.Top" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -152,7 +152,7 @@ Test Failed.
 6/6 Test: StackTest.Axioma1
 Command: "/home/fabiola/Desktop/VI/1.TO/II/TO-ASSERTS-PruebasGoogle/1.to_tarea/build/hello_test" "--gtest_filter=StackTest.Axioma1" "--gtest_also_run_disabled_tests"
 Directory: /home/fabiola/Desktop/VI/1.TO/II/TO-ASSERTS-PruebasGoogle/1.to_tarea/build
-"StackTest.Axioma1" start time: Nov 03 15:29 -05
+"StackTest.Axioma1" start time: Nov 03 16:36 -05
 Output:
 ----------------------------------------------------------
 Running main() from /home/fabiola/Desktop/VI/1.TO/II/TO-ASSERTS-PruebasGoogle/1.to_tarea/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -171,8 +171,8 @@ Note: Google Test filter = StackTest.Axioma1
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"StackTest.Axioma1" end time: Nov 03 15:29 -05
+"StackTest.Axioma1" end time: Nov 03 16:36 -05
 "StackTest.Axioma1" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Nov 03 15:29 -05
+End testing: Nov 03 16:36 -05
