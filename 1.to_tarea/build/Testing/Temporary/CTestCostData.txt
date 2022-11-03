@@ -1,0 +1,20 @@
+StackTest.Axioma6 7 0.000675681
+ArrayTest.Axioma5 5 0.000521478
+ArrayTest.Axioma4NoEmptyCase 1 0.00421827
+ArrayTest.Axioma4 4 0.000491503
+ArrayTest.Axioma3 0 0
+ArrayStack.Top 0 0
+Stack.Axioma6 0 0
+Stack.Axioma5 1 0.00215545
+Stack.Axioma4 0 0
+Stack.Axioma3 0 0
+Stack.Top 0 0
+Stack.Axioma1 1 0.00208854
+StackTest.Axioma5 2 0.0020419
+StackTest.Axioma4 1 0.00384505
+StackTest.Axioma3 0 0
+StackTest.Top 0 0
+StackTest.Axioma1 2 0.000860141
+---
+StackTest.Axioma3
+StackTest.Top
