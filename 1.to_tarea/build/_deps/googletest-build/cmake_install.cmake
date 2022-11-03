@@ -1,4 +1,4 @@
-# Install script for directory: /home/fabiola/Desktop/VI/1.TO/II/1.to_tarea/build/_deps/googletest-src
+# Install script for directory: /home/fabiola/Desktop/VI/1.TO/II/TO-ASSERTS-PruebasGoogle/1.to_tarea/build/_deps/googletest-src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/fabiola/Desktop/VI/1.TO/II/1.to_tarea/build/_deps/googletest-build/googlemock/cmake_install.cmake")
+  include("/home/fabiola/Desktop/VI/1.TO/II/TO-ASSERTS-PruebasGoogle/1.to_tarea/build/_deps/googletest-build/googlemock/cmake_install.cmake")
 
 endif()
 

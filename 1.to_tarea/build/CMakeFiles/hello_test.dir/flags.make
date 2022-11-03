@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=gnu++14
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -isystem /home/fabiola/Desktop/VI/1.TO/II/1.to_tarea/build/_deps/googletest-src/googletest/include -isystem /home/fabiola/Desktop/VI/1.TO/II/1.to_tarea/build/_deps/googletest-src/googletest 
+CXX_INCLUDES = -isystem /home/fabiola/Desktop/VI/1.TO/II/TO-ASSERTS-PruebasGoogle/1.to_tarea/build/_deps/googletest-src/googletest/include -isystem /home/fabiola/Desktop/VI/1.TO/II/TO-ASSERTS-PruebasGoogle/1.to_tarea/build/_deps/googletest-src/googletest 
 

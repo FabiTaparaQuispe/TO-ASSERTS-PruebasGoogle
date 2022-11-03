@@ -1,5 +1,5 @@
-if(EXISTS "/home/fabiola/Desktop/VI/1.TO/II/1.to_tarea/build/hello_test[1]_tests.cmake")
-  include("/home/fabiola/Desktop/VI/1.TO/II/1.to_tarea/build/hello_test[1]_tests.cmake")
+if(EXISTS "/home/fabiola/Desktop/VI/1.TO/II/TO-ASSERTS-PruebasGoogle/1.to_tarea/build/hello_test[1]_tests.cmake")
+  include("/home/fabiola/Desktop/VI/1.TO/II/TO-ASSERTS-PruebasGoogle/1.to_tarea/build/hello_test[1]_tests.cmake")
 else()
   add_test(hello_test_NOT_BUILT hello_test_NOT_BUILT)
 endif()

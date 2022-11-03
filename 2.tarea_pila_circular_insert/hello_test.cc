@@ -18,8 +18,10 @@ AXIOMS
 
 
 TEST(LisTest, Assertions) {
+ 
   List *a = new List();
-  a->tail();
+
+  //a->tail();
   EXPECT_TRUE(a->isEmpty());//axioma 1, 3, 8
   int tam = 11;
   for(int i=0;i < tam;i++){

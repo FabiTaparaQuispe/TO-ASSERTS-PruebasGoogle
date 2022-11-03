@@ -20,7 +20,6 @@ arrayStack<T>::arrayStack(int s){
   //de acuerdo al axioma 5 que nos dice que 
   //empty(newstack)=true, nos indica que en un
   //inicio la pila estaba vacia en el constructor
-  assert(sp == data);//?
   assert (empty());
 }
 

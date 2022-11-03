@@ -6,25 +6,25 @@
 
 #IncludeRegexTransform: 
 
-/home/fabiola/Desktop/VI/1.TO/II/1.to_tarea/arrayStack.cc
+/home/fabiola/Desktop/VI/1.TO/II/TO-ASSERTS-PruebasGoogle/1.to_tarea/arrayStack.cc
 arrayStack.h
-/home/fabiola/Desktop/VI/1.TO/II/1.to_tarea/arrayStack.h
+/home/fabiola/Desktop/VI/1.TO/II/TO-ASSERTS-PruebasGoogle/1.to_tarea/arrayStack.h
 assert.h
 -
 iostream
 -
 
-/home/fabiola/Desktop/VI/1.TO/II/1.to_tarea/arrayStack.h
+/home/fabiola/Desktop/VI/1.TO/II/TO-ASSERTS-PruebasGoogle/1.to_tarea/arrayStack.h
 stack.h
-/home/fabiola/Desktop/VI/1.TO/II/1.to_tarea/stack.h
+/home/fabiola/Desktop/VI/1.TO/II/TO-ASSERTS-PruebasGoogle/1.to_tarea/stack.h
 
-/home/fabiola/Desktop/VI/1.TO/II/1.to_tarea/hello_test.cc
+/home/fabiola/Desktop/VI/1.TO/II/TO-ASSERTS-PruebasGoogle/1.to_tarea/hello_test.cc
 arrayStack.cc
-/home/fabiola/Desktop/VI/1.TO/II/1.to_tarea/arrayStack.cc
+/home/fabiola/Desktop/VI/1.TO/II/TO-ASSERTS-PruebasGoogle/1.to_tarea/arrayStack.cc
 gtest/gtest.h
 -
 
-/home/fabiola/Desktop/VI/1.TO/II/1.to_tarea/stack.h
+/home/fabiola/Desktop/VI/1.TO/II/TO-ASSERTS-PruebasGoogle/1.to_tarea/stack.h
 
 _deps/googletest-src/googletest/include/gtest/gtest-assertion-result.h
 memory

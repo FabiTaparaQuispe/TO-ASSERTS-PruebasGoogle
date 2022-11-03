@@ -6,5 +6,5 @@ CXX_FLAGS =   -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fex
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/fabiola/Desktop/VI/1.TO/II/2.tarea_pila_circular_insert/build/_deps/googletest-src/googletest/include -I/home/fabiola/Desktop/VI/1.TO/II/2.tarea_pila_circular_insert/build/_deps/googletest-src/googletest 
+CXX_INCLUDES = -I/home/fabiola/Desktop/VI/1.TO/II/TO-ASSERTS-PruebasGoogle/2.tarea_pila_circular_insert/build/_deps/googletest-src/googletest/include -I/home/fabiola/Desktop/VI/1.TO/II/TO-ASSERTS-PruebasGoogle/2.tarea_pila_circular_insert/build/_deps/googletest-src/googletest 
 
