@@ -12,7 +12,7 @@ AXIOMS
 // Demonstrate some basic assertions.
 
 TEST(StackTest, Axioma6) {//empty(push(S,I))= false
-  arrayStack<int> stack(4);
+  arrayStack<int> stack(10);
   Stack<int> *newstack = &stack;
 
   newstack->push(100);
@@ -20,7 +20,7 @@ TEST(StackTest, Axioma6) {//empty(push(S,I))= false
 }
 
 TEST(StackTest, Axioma5) {//empty(newstack) = true
-  arrayStack<int> stack(4);
+  arrayStack<int> stack(10);
   Stack<int> *newstack = &stack;
 
   EXPECT_TRUE(newstack->empty());
@@ -28,7 +28,7 @@ TEST(StackTest, Axioma5) {//empty(newstack) = true
 
 TEST(StackTest, Axioma4) {
   // 4. top(push(S,I))  = I
-  arrayStack<int> stack(4);
+  arrayStack<int> stack(10);
   Stack<int> *newstack = &stack;
 
   newstack->push(3);
@@ -41,15 +41,13 @@ TEST(StackTest, Axioma4) {
 }
 
 TEST(StackTest, Axioma3){// 3. top(newstack) = undefined
-  arrayStack<int> stack(4);
+  arrayStack<int> stack(10);
   Stack<int> *newstack = &stack;
   newstack->top();
-  EXPECT_FALSE(newstack->empty());
-  //assert(true);
-  //ASSERT_DEATH(newstack->top(), "undefined");
+  //EXPECT_FALSE(newstack->empty());
 }
 TEST(StackTest, Top) {
-  arrayStack<int> stack(4);
+  arrayStack<int> stack(10);
   Stack<int> *newstack = &stack;
   newstack->push(3);
   newstack->push(6);
@@ -64,7 +62,7 @@ TEST(StackTest, Top) {
   EXPECT_TRUE(newstack->empty());
 }
 TEST(StackTest, Axioma1) {//pop(newstack)   = newstack
-  arrayStack<int> stack(4);
+  arrayStack<int> stack(10);
   Stack<int> *newstack = &stack;
   EXPECT_TRUE(newstack->empty());
   //arrayStack<int> stack_copy = stack;

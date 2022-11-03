@@ -45,12 +45,12 @@ List& List::append(int data){
 }
 
 int List::head(){
-  assert(!isEmpty());//precondicion ->axioma5
+  assert(!isEmpty());//precondicion ->axioma5 isEmpty()==false
   return last->next->data;
 }
 
-List& List::tail(){//falta implementar
-  assert(!isEmpty());
+List& List::tail(){
+  //assert(!isEmpty());//axioma 8
   if(last->next==last){
     last=NULL;
     return *this;
@@ -58,10 +58,9 @@ List& List::tail(){//falta implementar
   last->next=last->next->next;
   //axioma 8 
   //size(tail(append(new, E)))=0 ->axioma que 
-  //verifica que el tamanio si agrego y quito 
+  //verifica que el tamanio se agrego y quito 
   //un elemento a una lista nueva sea cero
   assert(size()>=1&&!isEmpty());
-  //axioma 9 : 
   
   return *this;
 

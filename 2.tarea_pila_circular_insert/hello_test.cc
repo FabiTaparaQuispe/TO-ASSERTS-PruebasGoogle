@@ -17,19 +17,23 @@ AXIOMS
 // Demonstrate some basic assertions.
 
 
-TEST(LisTest, Assertions) {
- 
-  List *a = new List();
+TEST(LisTest, Assertion1_3_8) {
 
-  //a->tail();
+  List *a = new List();
+  a->tail();
+  a->head();
   EXPECT_TRUE(a->isEmpty());//axioma 1, 3, 8
+}
+
+TEST(LisTest, Assertions) {
+
+  List *a = new List();
   int tam = 11;
   for(int i=0;i < tam;i++){
     a->append(i);
-    EXPECT_TRUE(size()>0);//axioma 2 y 4
-
-    a->tail();
+    a->tail();//axioma 9
   } // Expect two strings not to be equal.
+  EXPECT_TRUE(a->size()>0);//axioma 2 y 4
   EXPECT_EQ(tam, a->size());
   EXPECT_FALSE(a->isEmpty());
 }

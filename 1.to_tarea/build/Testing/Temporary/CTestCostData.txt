@@ -1,9 +1,9 @@
-StackTest.Axioma6 1 0.00422745
-StackTest.Axioma5 1 0.00457578
-StackTest.Axioma4 1 0.00493234
+StackTest.Axioma6 2 0.000864065
+StackTest.Axioma5 2 0.00076865
+StackTest.Axioma4 2 0.000760189
 StackTest.Axioma3 0 0
 StackTest.Top 0 0
-StackTest.Axioma1 1 0.00178726
+StackTest.Axioma1 2 0.000806172
 ---
 StackTest.Axioma3
 StackTest.Top
